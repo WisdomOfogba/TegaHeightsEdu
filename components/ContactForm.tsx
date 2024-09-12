@@ -26,7 +26,7 @@ const ContactForm = () => {
     setStatus(""); // Clear any previous status messages
 
     try {
-      const res = await fetch("/api/contact", {
+      const res = await fetch("/contact-us/api", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

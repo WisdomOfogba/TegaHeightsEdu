@@ -33,7 +33,7 @@ const SchoolForm = ({ school }: SchoolProps) => {
     setStatus(""); // Clear any previous status messages
 
     try {
-      const res = await fetch("/api/school", {
+      const res = await fetch("/schools/api", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
