@@ -33,8 +33,6 @@ export const metadata: Metadata = {
     images: [
       {
         url: '/favicon.svg',
-        width: 800,
-        height: 600,
         alt: 'TegaHeights Edu Logo',
       },
     ],
