@@ -20,7 +20,11 @@ export default function SchoolDetails() {
   return (
     <div className="bg-gray-100">
       <div className="relative w-full h-64 overflow-hidden">
-        <img src={school.bg} alt="school" className="w-full h-full object-cover" />
+        <img
+          src={school.bg}
+          alt="school"
+          className="w-full h-full object-cover"
+        />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center gap-4">
           <div className="flex-col md:flex-row flex items-center gap-4">
             <h1 className="text-4xl text-center font-bold mb-4 text-white">
@@ -33,7 +37,9 @@ export default function SchoolDetails() {
               Home
             </Link>
             <ChevronRightIcon className="w-6 h-6" />
-            <Link href="/schools" className="font-medium">Schools</Link>
+            <Link href="/schools" className="font-medium">
+              Schools
+            </Link>
             <ChevronRightIcon className="w-6 h-6" />
             {school.name}
           </div>
