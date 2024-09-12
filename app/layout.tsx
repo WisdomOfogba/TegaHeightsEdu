@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: 'TegaHeights Edu',
     images: [
       {
-        url: '/logo-black.svg',
+        url: '/favicon.svg',
         width: 800,
         height: 600,
         alt: 'TegaHeights Edu Logo',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Study Abroad | TegaHeights Edu Limited',
     description: 'Study abroad agents in Nigeria. Study in Canada, the US, the UK, Germany, Spain, and more, with the help of professional education counsellors.',
-    images: ['logo-black.svg'],
+    images: ['favicon.svg'],
   },
 };
 
