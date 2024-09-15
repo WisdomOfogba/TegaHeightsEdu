@@ -1,9 +1,12 @@
+"use client"
 import Link from "next/link";
 import CountryCard from "@/components/CountryCard";
 import { ChevronRightIcon, HomeIcon } from "@heroicons/react/solid";
 import { countries } from "@/constant";
+import { useEffect, useState } from "react";
 
 export default function CountriesPage() {
+
   return (
     <div className="bg-gray-100">
       <div className="relative w-full h-64 overflow-hidden">

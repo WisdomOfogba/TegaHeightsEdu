@@ -52,9 +52,9 @@ export default function CountryDetails() {
           </div>
           <CountryForm school={country.name} />
         </div>
-        <h2 className="text-2xl font-bold mb-8">Study in these Schools</h2>
+        {country.schools && <h2 className="text-2xl font-bold mb-8">Study in these Schools</h2>}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {country.schools.map((schoolName) => {
+          {country.schools?.map((schoolName) => {
             const school = schools.find((s) => s.name === schoolName);
             return (
               <Link key={school?.id} href={`/schools/${school?.id}`}>

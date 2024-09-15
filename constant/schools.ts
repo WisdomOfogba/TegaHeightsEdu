@@ -4,47 +4,47 @@ export const schools = [
       logo: "/dmu-logo.svg",
       bg: "/schools/dmu.jpg",
       name: "De Montfort University",
-      about: {
-        p1: "De Montfort University Leicester (DMU) is a public university in the city of Leicester, England. It was established in accordance with the Further and Higher Education Act in 1992 as a degree-awarding body. The name De Montfort University was taken from Simon de Montfort, a 13th-century Earl of Leicester credited with establishing the first Parliament of England in 1265.",
-        p2: "De Montfort University has approximately 27,000 full and part-time students, 3,240 staff and an annual turnover in the region of £168 million. The university is organized into four faculties: Art, Design, and Humanities (ADH); Business and Law (BAL); Health and Life Sciences (H&LS); and Computing, Engineering, and Media (CEM). It is a Sustainable Development Hub, focusing on Peace, Justice and Strong Institutions, an initiative by the United Nations launched in 2018.",
-        p3: "In 2019, the first Times Higher Education (THE) University Impact Rankings, a global performance tables that assess universities against the United Nations’ Sustainable Development Goals, ranked De Montfort University 50th in the world. The UK Department of Education awarded the university a Gold rating in the 2017 Teaching Excellence Framework. It is a member of the Association of Commonwealth Universities.",
-      },
-      why: {
-        w1: "It has been ranked twice in the top 150 young universities in the world by Times Higher Education (THE) University Rankings",
-        w2: "It has a range of scholarships and discounts available for courses starting in January 2020",
-        w3: "It is dedicated to helping students achieve the life, career and great experiences they want.",
-        w4: " Rated Gold in the Teaching Excellence Framework 2017, the university has a great record for helping students find highly skilled work or further study",
-      },
-      feature: {
-        f1: "Architecture",
-        f2: "Artificial Intelligence",
-        f3: "Biomedical Science",
-        f4: "Design Crafts",
-        f5: "District Nursing",
-        f6: "Marketing",
-        f7: "Music Technology",
-      }
+      about: [
+        "De Montfort University Leicester (DMU) is a public university in the city of Leicester, England. It was established in accordance with the Further and Higher Education Act in 1992 as a degree-awarding body. The name De Montfort University was taken from Simon de Montfort, a 13th-century Earl of Leicester credited with establishing the first Parliament of England in 1265.",
+        "De Montfort University has approximately 27,000 full and part-time students, 3,240 staff and an annual turnover in the region of £168 million. The university is organized into four faculties: Art, Design, and Humanities (ADH); Business and Law (BAL); Health and Life Sciences (H&LS); and Computing, Engineering, and Media (CEM). It is a Sustainable Development Hub, focusing on Peace, Justice and Strong Institutions, an initiative by the United Nations launched in 2018.",
+        "In 2019, the first Times Higher Education (THE) University Impact Rankings, a global performance tables that assess universities against the United Nations’ Sustainable Development Goals, ranked De Montfort University 50th in the world. The UK Department of Education awarded the university a Gold rating in the 2017 Teaching Excellence Framework. It is a member of the Association of Commonwealth Universities.",
+      ],
+      why: [
+        "It has been ranked twice in the top 150 young universities in the world by Times Higher Education (THE) University Rankings",
+        "It has a range of scholarships and discounts available for courses starting in January 2020",
+        "It is dedicated to helping students achieve the life, career and great experiences they want.",
+        " Rated Gold in the Teaching Excellence Framework 2017, the university has a great record for helping students find highly skilled work or further study",
+      ],
+      feature: [
+        "Architecture",
+        "Artificial Intelligence",
+        "Biomedical Science",
+        "Design Crafts",
+        "District Nursing",
+        "Marketing",
+        "Music Technology",
+      ]
     },
     {
       id: "lancaster",
       bg: "/schools/lancaster.jpg",
       name: "Lancaster University",
-      about: {
-        p1: "Lancaster University welcomes over 3,000 international students from around the world. The campus offers a community environment with facilities that include a medical centre, shops, cafés, banks, and hairdressers; and nearby, Lancaster city also has a vast array of places to shop and eat, easily accessed by bus.",
-        p2: "Pre-sessional and foundation programmes are offered by the university; these can help students improve language proficiency and offer academic skills training.",
-      },
-      why: {
-        w1: "Lancaster is ranked in the top ten in the UK’s three major league tables - The Times & Sunday Times (6th), Guardian (9th), and CUG (8th).",
-        w2: "The 2016 National Student Survey showed that Lancaster students are among the most satisfied in the UK, with the University achieving a 91% score.",
-        w3: "Lancaster has spent £450 million on its campus since 2002 and is the eighth biggest spender on facilities in the UK."
-      },
-      feature: {
-        f1: "Business Analytics",
-        f2: "Computer Science",
-        f3: "Mechanical Engineering",
-        f4: "Social Research",
-        f5: "Volcanology and Geological Hazards"
-      }
+      about: [
+        "Lancaster University welcomes over 3,000 international students from around the world. The campus offers a community environment with facilities that include a medical centre, shops, cafés, banks, and hairdressers; and nearby, Lancaster city also has a vast array of places to shop and eat, easily accessed by bus.",
+        "Pre-sessional and foundation programmes are offered by the university; these can help students improve language proficiency and offer academic skills training.",
+      ],
+      why: [
+        "Lancaster is ranked in the top ten in the UK’s three major league tables - The Times & Sunday Times (6th), Guardian (9th), and CUG (8th).",
+        "The 2016 National Student Survey showed that Lancaster students are among the most satisfied in the UK, with the University achieving a 91% score.",
+        "Lancaster has spent £450 million on its campus since 2002 and is the eighth biggest spender on facilities in the UK."
+      ],
+      feature: [
+        "Business Analytics",
+        "Computer Science",
+        "Mechanical Engineering",
+        "Social Research",
+        "Volcanology and Geological Hazards"
+      ]
     },
     {
       id: "aliant-int-uni",

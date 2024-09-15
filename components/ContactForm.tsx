@@ -55,7 +55,8 @@ const ContactForm = () => {
 
   return (
     <div className="bg-white p-8 shadow-md rounded-lg">
-      <h2 className="text-2xl font-semibold mb-6">Send us a message</h2>
+      <h2 className="text-2xl font-semibold">Send us a message</h2>
+      <p className="text-md mb-6">Required fields are marked (<span className="text-red-700">*</span>)</p>
 
       <form method="get" onSubmit={handleSubmit} className="space-y-4">
         <div>
@@ -152,7 +153,14 @@ const ContactForm = () => {
           type="submit"
           className="w-full py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition duration-300 flex items-center justify-center"
         >
-          {isSending ? <img src="/loader.svg" alt="loader" /> : "Send Message"}
+          {isSending ? (
+            <div className="flex items-center gap-2">
+              <img src="/loader.svg" alt="loader" height={24} width={24} />{" "}
+              Sending...{" "}
+            </div>
+          ) : (
+            "Send Message"
+          )}
         </button>
         {status && (
           <p

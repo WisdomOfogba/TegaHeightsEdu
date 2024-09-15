@@ -22,7 +22,7 @@ const Header = () => {
         </Link>
         <div className="flex items-center ">
           <div className="flex items-center gap-4">
-            <ul className="hidden md:flex gap-4 items-center ">
+            <ul className="hidden md:flex gap-4 items-center">
               {Nav.map((nav) => (
                 <li title={nav.key} key={nav.key}>
                   <Link className={`${pathname === nav.link ? "font-bold text-blue-600" : "font-normal hover:font-bold transition-all duration-300"}`} href={nav.link}>{nav.name}</Link>
@@ -33,7 +33,7 @@ const Header = () => {
               <button
                 onClick={openPopup}
                 className="px-2 py-1 bg-gray-800  text-white rounded-md"
-                title="search"
+                title="search (CTRL+K)"
               >
                 <SearchIcon className="h-6 w-6 text-white" />
               </button>
